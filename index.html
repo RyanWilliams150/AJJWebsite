@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJJ Trucking Corp</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+
+    <script src="index.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init({
+            publicKey: "_Nn3UvlPYgmuHIwSg",
+        });
+    })();
+</script>
+</head>
+<body>
+    <div class="deliver__bar">
+        <p> We Deliver It!</p>
+    </div>
+
+    <section id="landing-page">
+        <nav>
+            <figure>
+                <img id="AJJ-logo" src="./assets/LogoAJJ2.png" alt="">
+            </figure>
+            <ul class="nav__link--list">
+                <li class="nav__link">
+                    <a href="#" class="
+                    nav__link--anchor
+                    link__hover-effect
+                    link__hover-effect--orange
+                    ">Home</a>
+                </li>
+                <li class="nav__link">
+                    <a href="#services" class="
+                    nav__link--anchor
+                    link__hover-effect
+                    link__hover-effect--orange
+                    ">Services</a>
+                </li>
+                <li class="nav__link">
+                    <a href="https://blogappliance.com" target="_blank" class="
+                    nav__link--anchor
+                    link__hover-effect
+                    link__hover-effect--orange
+                    ">Appliances</a>
+                </li>
+                <li class="nav__link">
+                    <a href="#quote__forum" class="
+                    nav__link--anchor
+                    quote__btn
+                    ">Get a Quote!</a>
+                </li>
+            </ul>
+        </nav>
+        <header class="hero">
+            <div class="hero__background">
+                <img src="./assets/AdobeStock_Truck.jpeg" alt="Background">
+            </div>
+            <div class="hero__content">
+                <h1>Reliable <b class = "orange"> Moving</b>  and 
+                    <b class = "orange"> Delivery</b> Services</h1>
+                <p>Expert trucking solutions for all your delivery needs.</p>
+                <a href="#services" class="hero__btn">Learn More</a>
+            </div>
+            <div class="service">
+                <div class="service__box">
+                    <h3>Moving Services</h3>
+                    <p>Safe and secure moving services for your belongings.</p>
+                </div>
+                <div class="service__box">
+                    <h3>Local Deliveries</h3>
+                    <p>Fast and efficient delivery across NYC, Bronx, Brooklyn, Queens, Parts of North NJ.</p>
+                </div>
+                <div class="service__box">
+                    <h3>Delivery Solutions</h3>
+                    <p>Professional insured team ready to assist you today.</p>
+                </div>
+            </div>
+        </header>
+    </section>
+    <section id="services">
+        <div class="container">
+            <h1 class="services__title">
+                Your Trusted Trucking <br> Partner
+            </h1>
+            <div class="cards__container"> 
+                <div class="card">
+                    <img src="./assets/Truck.jpeg" alt="Truck">
+                    <h2>Delivery/Moving Services</h2>
+                    <p>Home delivery of appliances/personal furniture.</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/Man-Wrench.jpeg" alt="Service Man">
+                    <h2>Installation</h2>
+                    <p>Available upon request.</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/Hand-Heart.jpeg" alt="Heart in Hand">
+                    <h2>White Glove</h2>
+                    <p>We handle your deliveries with care and precision.</p>
+                </div>
+            </div>
+            <div class="services__photo">
+                <img src="./assets/Truck-Street.jpeg" alt="">
+            </div>
+        </div>
+        
+    </section>
+    <section id= "quote__forum">
+        <div class="forum">
+            <h3 class="forum__title">
+                Get a Quote
+            </h3>
+            <form id="quote__forum" onsubmit="contact(event)">
+                <div class="forum__item">
+                    <label class="forum__item--label">Name</label>
+                    <input class="input" name="user_name" type="text" required></input>
+                </div>
+                <div class="forum__item">
+                    <label class="forum__item--label">Email</label>
+                    <input class="input" name="user_email" type="email" required></input>
+                </div>
+                <div class="forum__item">
+                    <label class="fourm__item--label">Message</label>
+                    <textarea class="input" name="message" type="text" required></textarea>
+                </div>
+                <button id="quote__submit" class="forum__submit">
+                    Send me a message
+                </button>
+            </form>
+            </div>
+            <div class="forum__overlay--success">
+                Thanks for the message!
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row footer__row">
+
+                <div class="footer__logo">
+                    <figure>
+                        <img id="footer__logo" src="./assets/LogoAJJ2.png" alt="AJJ Logo">
+                    </figure>
+                </div>
+                
+
+                <div class="footer__contact">
+                    <a href="mailto:ajjtruckingcorp@gmail.com" target="_blank" alt= "" class="
+                    link__hover-effect
+                    link__hover-effect--orange
+                    ">
+                    <i class='bx bx-envelope' ></i>
+                    ajjtruckingcorp@gmail.com
+                </a>
+                <a href="tel:516-360-5857" class="
+                    link__hover-effect 
+                    link__hover-effect--orange
+                    ">
+                   <i class='bx bx-phone' ></i>
+                    516-360-5857
+                </a>
+                <a href="tel:516-473-3846" class="
+                    link__hover-effect 
+                    link__hover-effect--orange
+                    ">
+                   <i class='bx bx-phone' ></i>
+                    516-473-3846
+                </a>
+                </div>
+
+                <div class="footer__links">
+                    <a href="#" class="
+                    link__hover-effect 
+                    link__hover-effect--orange
+                    ">
+                    <i class='bx bx-home-alt-2' ></i>
+                    Home
+                </a>
+                    <a href="#services" class="
+                    link__hover-effect 
+                    link__hover-effect--orange
+                    ">
+                    <i class='bx bx-cog' ></i>
+                    Services
+                </a>
+                <a href="https://blogappliance.com" target="_blank" class="
+                    link__hover-effect 
+                    link__hover-effect--orange
+                    ">
+                    <i class='bx bxs-washer' ></i>
+                    Appliances
+                </a>
+                </div>
+
+                <a href="https://ryanwilliams150.github.io/Portfolio/" target="_blank" class="
+                    footer__copyright
+                    ">
+                    Made by Ryan Williams
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
