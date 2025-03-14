@@ -1,3 +1,8 @@
+function toggleMenu() {
+    const menu = document.querySelector('.dropdown__menu');
+    menu.classList.toggle('active');
+  }
+
 
 function contact(event) {
     event.preventDefault(); 
