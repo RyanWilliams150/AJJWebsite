@@ -51,14 +51,44 @@
                     link__hover-effect--orange
                     ">Appliances</a>
                 </li>
+            </ul>
+
+            <a href="#quote__forum" class="quote__btn">Get a Quote!</a>
+
+                <!-- HAMBURGER MENU -->
+
+           <div class="hamburger" onclick="toggleMenu()">
+            <img src="./assets/Hamburger.png" >
+           </div>
+        </nav>
+
+        <div class="dropdown__menu">
+            <ul class="nav__link--list">
                 <li class="nav__link">
-                    <a href="#quote__forum" class="
+                    <a href="#" class="
                     nav__link--anchor
-                    quote__btn
-                    ">Get a Quote!</a>
+                    link__hover-effect
+                    link__hover-effect--orange
+                    ">Home</a>
+                </li>
+                <li class="nav__link">
+                    <a href="#services" class="
+                    nav__link--anchor
+                    link__hover-effect
+                    link__hover-effect--orange
+                    ">Services</a>
+                </li>
+                <li class="nav__link">
+                    <a href="https://blogappliance.com" target="_blank" class="
+                    nav__link--anchor
+                    link__hover-effect
+                    link__hover-effect--orange
+                    ">Appliances</a>
                 </li>
             </ul>
-        </nav>
+        </div>
+
+
         <header class="hero">
             <div class="hero__background">
                 <img src="./assets/AdobeStock_Truck.jpeg" alt="Background">
@@ -128,7 +158,7 @@
                     <input class="input" name="user_email" type="email" required></input>
                 </div>
                 <div class="forum__item">
-                    <label class="fourm__item--label">Message</label>
+                    <label class="forum__item--label">Message</label>
                     <textarea class="input" name="message" type="text" required></textarea>
                 </div>
                 <button id="quote__submit" class="forum__submit">
